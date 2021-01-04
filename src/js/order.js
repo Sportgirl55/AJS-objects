@@ -1,7 +1,3 @@
-const obj = {
-  name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
-};
-
 export default function orderByProps(object, array) {
   const result = [];
   for (let i = 0; i < array.length; i += 1) {
@@ -20,4 +16,3 @@ export default function orderByProps(object, array) {
   }
   return result;
 }
-orderByProps(obj, ['health', 'defence']);
